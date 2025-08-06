@@ -1,0 +1,179 @@
+ /* style.css
+
+body {
+    background-color: #0f1117;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #00ffe7;
+    text-shadow: 1px 1px 2px #0ff;
+}
+
+.stButton>button {
+    background-color: #00ffe7;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.stButton>button:hover {
+    background-color: #00c8c8;
+    transform: scale(1.05);
+}
+
+div.stSelectbox>div>div>div {
+    background-color: #222;
+    color: #fff;
+}
+
+footer {
+    visibility: hidden;
+}
+
+a {
+    color: #00ffe7;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #1c1f26;
+    color: #eee;
+}
+
+[data-testid="stHeader"] {
+    background-color: transparent;
+} */
+
+
+  */
+
+  /* Background */
+/* 🔥 Ultimate High-Tech Titanic CSS UI 🔥 */
+
+body {
+    background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+    color: #e0f7fa;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* 🎯 Main Container */
+.stApp {
+    background: url('logo.png') no-repeat center top;
+    background-size: contain;
+    padding-top: 180px;
+    backdrop-filter: blur(2px);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* 🚀 Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🏷️ Titles */
+h1 {
+    color: #00ffe5;
+    font-size: 3.2rem;
+    text-shadow: 0 0 12px #00ffe5, 0 0 24px #00ffe5;
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* 📃 Markdown and Descriptions */
+div[data-testid="stMarkdownContainer"] {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #cceeff;
+    text-align: center;
+    padding: 0 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* 🔘 Inputs Styling */
+.css-1cpxqw2, .css-1y4p8pa, .css-1y3u8ex {
+    background-color: rgba(0, 255, 255, 0.08);
+    border: 1px solid #00ffe5;
+    border-radius: 12px;
+    padding: 12px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.css-1cpxqw2:hover, .css-1y4p8pa:hover, .css-1y3u8ex:hover {
+    background-color: rgba(0, 255, 255, 0.15);
+    box-shadow: 0 0 10px #00ffe5;
+}
+
+/* 🧠 Prediction Button */
+button[kind="primary"] {
+    background: linear-gradient(45deg, #00ffe5, #00c9a7);
+    color: #000;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ffe5, 0 0 30px #00ffe5;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 28px;
+    transition: all 0.3s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+button[kind="primary"]:hover {
+    background-color: #00bfbf !important;
+    transform: scale(1.08);
+    box-shadow: 0 0 25px #00ffe5, 0 0 50px #00ffe5;
+}
+
+/* ✅ Alerts */
+.stAlert {
+    border: 2px solid #00ffe5;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,255,255,0.3);
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.stAlert[data-baseweb="notification"][data-type="success"] {
+    background: rgba(0, 255, 128, 0.15);
+    color: #00ffb3;
+}
+
+.stAlert[data-baseweb="notification"][data-type="error"] {
+    background: rgba(255, 0, 64, 0.15);
+    color: #ff4d6d;
+}
+
+/* 📌 Footer */
+footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px;
+    border-top: 1px solid #00ffe5;
+}
+
+a {
+    color: #00ffe5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #00ffe5;
+}
+
+/* 🧩 Input hover effect */
+input:hover, select:hover, textarea:hover {
+    border-color: #00ffe5;
+    box-shadow: 0 0 8px #00ffe5;
+    transition: 0.3s ease-in-out;
+}
